@@ -1,0 +1,26 @@
+package week1.day1;
+
+public class PositiveNegativeNo 
+{
+
+	public static void main(String[] args) 
+  {
+		int num1 = 35;
+		
+		if (num1>0)
+		{
+			System.out.println(num1 + "is postive number");
+		}
+		else if (num1<0)
+		{
+			System.out.println(num1 + "is negative number");
+		}
+		else
+		{
+			System.out.println(num1 + "is neither postive or negative number");			
+		}
+				
+
+	}
+
+}
